@@ -1,0 +1,377 @@
+html, body, h1,h2, h3, h4, h5, h6 {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1.33333;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color: white;
+   
+    
+}
+div#wrapper {
+    margin: 0 auto;
+    max-width: 960px; 
+}
+header {
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 32px;
+    color: black;
+}
+
+}
+* {
+    box-sizing: border-box;
+}
+
+#quote {
+    font-size: 20px;
+    line-height: 50px;
+    color: black;
+}
+button {
+    padding: 10px;
+    margin: 20px;
+}
+.row,
+.row > column {
+    padding: 8px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    flex: 55%;
+    max-width: 55%;
+    
+}
+
+.newspaper {
+    -webkit-column-count: 3; 
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+    -webkit-column-gap: 40px; 
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+    -webkit-column-rule-style: solid;
+    -moz-column-rule-style: solid; 
+    column-rule-style: solid;
+    -webkit-column-rule-width: 2px;
+    -moz-column-rule-width: 2px; 
+    column-rule-width: 2px;
+    -webkit-column-rule-color: dodgerblue; 
+    -moz-column-rule-color: dodgerblue;
+    column-rule-color: dodgerblue;
+}
+
+
+
+header-container {
+ display: flex;
+ flex-direction: column;
+ padding: 1.0em 0;
+ border-bottom: 1px solid black;
+}
+
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+li a.active {
+ color: #000000;
+ border-bottom: 2px solid #000000;
+ font-weight: 300;
+}
+li a:hover {
+ color: darkgray;
+}
+
+h2 {
+    font-size: 30px;
+    word-break: break-all;
+}
+
+h3 {
+   text-align: center;
+   font-size: 20pt;
+   cursor: pointer;
+}
+main p {
+    font-family: 'Text Me One', sans-serif;
+    font-size: 1.8rem;
+    color: black;
+    margin-bottom: .5rem;
+}
+main h1 {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    border-bottom: 2px solid LightSlateGray; 
+    font-size: 1rem;
+    color: black;
+    font-weight: 200;
+    margin-bottom: .4rem;
+}
+
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.fa {
+  padding: 20px;
+  font-size: 15x;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text {
+  background-color: dodgerblue;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.row {
+    text-align: center;
+    display: flex;
+}
+
+.column {
+    float: left;
+    flex: 33.33%;
+    padding: 5px;
+}
+
+form.man fieldset {
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: dodgerblue;
+}
+
+
+
+form.man span {
+    display: block;
+    padding: .8rem 0 0 .3rem;
+}
+
+form.man .userinfo {
+    color: black;
+    width: 40rem;
+    border-radius: .6rem;
+    border: solid 1px #cacabb;
+    padding: .6rem;
+    
+}
+
+form.man .userbutton {
+    width: 20rem;
+    padding: .8rem;
+    margin-left: 2%;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 8px;
+    
+    
+}
+
+form.man .userbutton {
+    width: 20rem;
+    padding: .8rem;
+    margin-left: 0%;
+    color: white;
+    background: dodgerblue;
+    border: solid 1px #666;
+    border-radius: 8px;
+    
+}
+
+
+row: {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+container {
+    width: 50%;
+    max-width: 300px;
+    padding: 0 16px;
+}
+
+nav ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+}
+nav ul.menu li {
+    float: center;
+}
+nav ul.menu li a {
+    display:flex;
+    padding: .2rem 1.5rem;
+    color: black;
+    text-decoration: none;
+    border-right: solid 1px #f3f3f3;
+}
+
+nav ul.menu li a:hover {
+    background-color: dodgerblue;
+    color: black;
+}
+nav ul.menu li.active a {
+    background-color: dodgerblue; 
+}
+div.keepOpen {
+    clear: both;
+    
+}
+header ul li {
+    display: inline-block;
+    padding: 0 1.4em 0 0;
+    font-size: 1.59em;
+    
+    
+}
+nav {
+   align-self: center;
+   margin: 0 0.8em 0 0;
+ }
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    display: block;
+    flex: 50%;
+    max-width: 50%;
+  }
+
+
+    
+    
+footer {
+    text-align: center;
+    padding: .5rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: dodgerblue;
+    }    
+    
+    
+
+
+}  
+footer {
+    text-align: center;        
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: dodgerblue;
+    }  
+    
